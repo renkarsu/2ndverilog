@@ -1,4 +1,4 @@
-module test_adder4_behavior
+module test_adder4_behavior;
 
 reg [3:0] a, b;
 wire [4:0] sum;
@@ -18,7 +18,7 @@ end
 
 initial
 begin
-    $monitor("%t %b %b %b %b %b", $time, a, b, sum);
+    $monitor("%t %b %b %b", $time, a, b, sum);
 end
 
 endmodule

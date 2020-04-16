@@ -19,7 +19,7 @@ end
 
 initial
 begin
-    $monitor("%t %b %b %b %b", $time, a, b, sum, carry);
+    $monitor("%t %b %b %b %b %b", $time, a, b, sum, carry);
 end
 
 endmodule
